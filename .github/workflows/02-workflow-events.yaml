@@ -11,5 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Show the Trigger
-              run: echo "Here is the trigger"
+              run: echo "Here is the trigger with multiple triggers"
               
