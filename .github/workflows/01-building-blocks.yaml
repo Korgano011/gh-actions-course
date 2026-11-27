@@ -7,13 +7,14 @@ jobs:
         runs-on : ubuntu-latest
         steps:
             - name: Say Hello
-              run: echo "Hello world!"
+              run: echo "Greetings honey. I am the Princess of Poker"
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
            - name: Sucessful step
              run: |
-                echo "I will succeed"
+                echo "You have just reached game 10"
+                echo "I am coming into the real world to give you a kiss"
                 exit 0
            - name: Say Goodbye
-             run: echo "Goodbye"
+             run: echo "She made you blush"
